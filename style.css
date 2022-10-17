@@ -14,6 +14,9 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
 /* box model of CSS. CPBM. 
 rem: It is a relative length unit. REM is relative to the font size of the root element. Usually its 16 px. When font size increases the spacing of rem also increases relatively. */
 
@@ -45,8 +48,9 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     border:1px solid var(--primary-color);
 }
 
 /* look into BEM naming convention for CSS */
+

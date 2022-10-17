@@ -54,3 +54,13 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 
 /* look into BEM naming convention for CSS */
 
+/* lists */
+
+ .list-non-bullet {
+    list-style: none;
+ }
+
+ .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+ }

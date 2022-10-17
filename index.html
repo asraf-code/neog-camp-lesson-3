@@ -6,11 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS way 1: Style Tag. This affects the whole html document -->
+    <!-- <style>
+        body {
+            color: red;
+        }
+    </style> -->
+    <!-- CSS way 3: External link -->
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Asraf's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    <!-- CSS way 2: <h1 style="color:red"> This is Style Attribute. This affects only the particular element you add the attribute to. -->
+    <h1 id="lib-header">Asraf's Component Library</h1> 
+    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
     </p>
 
     <hr>
@@ -20,7 +29,7 @@
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
     <p>Let me show you the normal text. This is free flow and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text.</small>
+    <small class="para">This is relatively smaller text.</small>
 
     <hr>
 

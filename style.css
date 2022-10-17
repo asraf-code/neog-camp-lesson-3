@@ -1,0 +1,21 @@
+body {
+    color: red;
+}
+
+/* Selectors: these are used in CSS files to target elements you want apply designs to. ex: body, h1, h2, p. There are multiple ways to select. You can select via attributes, tag, element, class, id, etc. */
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+#lib-header {
+    color: gray;
+}
+
+.para {
+    color: pink;
+}

@@ -6,6 +6,7 @@
 /* defining variables */
 :root {
     --primary-color: #f59e0b;
+    --dark-gray: rgb(114, 114, 114);
 }
 
 /* applying the font-family to body of html file */
@@ -95,3 +96,22 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
  .link-active {
     font-weight: bolder;
  }
+
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+
+}

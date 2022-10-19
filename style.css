@@ -113,5 +113,6 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 
 }

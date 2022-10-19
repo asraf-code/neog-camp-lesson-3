@@ -123,25 +123,36 @@
         <h1 class="hero-heading">heading inside <span style="color: var(--primary-color)">hero</span> </h1>
     </header>
 
-    <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. -->
+    <!-- The <span> tag is an inline container (not a block element) used to mark up a portion of a text, or a part of a document. -->
+
+     <!--  A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling. -->
 
     <hr>
 
     <!-- section is a tag. It shows that your page has different parts. It is used to separate 
-    parts of pages.-->
+    parts of pages (visually).-->
+
 
     <h2>@section</h2>
+    <!-- will expand to both sides of the page -->
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
-        <!-- will expand to both sides of the page -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+            <p>The cascade is an algorithm that defines how user agents combine property values originating from different sources. The cascade defines the origin and layer that takes precedence when declarations in more than one origin or cascade layer set a value for a property on an element.</p>
+        </div>
+
     </section>
 
-    <secion>
-        <h3>off white section</h3>
-        <p>This will have grey background</p>
-    </secion>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have grey background</p>
+            <p>The cascade lies at the core of CSS, as emphasized by the name: Cascading Style Sheets. When a selector matches an element, the property value from the origin with the highest precedence gets applied, even if the selector from a lower precedence origin or layer has greater specificity.</p>
+        </div>
+        
+    </section>
 
     <hr>
 

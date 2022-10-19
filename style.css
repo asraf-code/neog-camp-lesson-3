@@ -16,6 +16,11 @@ body {
     margin: 0px;
 }
 
+.h1margin {
+    margin-block-start: .40rem;
+    margin-block-end: .40rem;
+}
+
 hr {
     margin: 2rem 0rem;
 }
@@ -34,13 +39,26 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     margin: auto;
 }
 
+/* spaces */
+
+.padding-md {
+    padding-bottom: 3rem;
+}
+
+.padding-small {
+    padding-bottom: 0.5rem;
+}
+
+
 /* links */
 
 /* we have to choose primary color and secondary color that will be used to style the links. these colors will be stored in variables and used across the website. */
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary {
@@ -67,6 +85,10 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.padding {
+    padding-inline-start: 0px;
 }
 
 /* navigation */
@@ -112,6 +134,12 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     margin: auto;
 }
 
+.hero .projects-img {
+    max-width: 500px;
+    display:block;
+    margin: auto;
+}
+
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
@@ -140,6 +168,11 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .footer .link {

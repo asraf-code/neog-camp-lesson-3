@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -130,3 +131,27 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 .ow {
     background-color: var(--off-white);
 }
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+/* CSS - cascading style sheets: CSS has multiple styles applied to it from top to bottom
+The top most style overrides the same style applied below it within an (div) element*/
+
+/* User Agent Style sheet: every browser has its own prewitten style sheet. When troubleshooting your webpage styling inspect tthe elements and style tab inside tyhe browser */
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+

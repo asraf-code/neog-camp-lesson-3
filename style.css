@@ -137,7 +137,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 /* header */
 
 .hero {
-    padding: 5rem 3rem 3rem 3rem;
+    padding: 4rem 3rem 3rem 3rem;
 }
 
 .hero .hero-img {

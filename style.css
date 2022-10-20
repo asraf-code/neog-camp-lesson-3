@@ -14,7 +14,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0px;
-    border: 1px solid transparent;
 }
 
 .h1margin {
@@ -165,10 +164,11 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+
 }
 
 .footer .footer-header {

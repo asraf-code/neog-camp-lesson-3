@@ -141,7 +141,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 }
 
 .hero .hero-img {
-    max-width: 300px;
+    max-width: 280px;
     display: block;
     margin: auto;
 }

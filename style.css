@@ -10,10 +10,18 @@
 }
 
 /* applying the font-family to body of html file */
+html {
+    height: 100%;
+}
 
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0px;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%; position: relative;
 }
 
 .h1margin {
@@ -94,6 +102,10 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 /* navigation */
 
 .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: var(--primary-color);
     color: white;
     padding: 2rem 2rem 1rem 2rem;
@@ -125,7 +137,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 /* header */
 
 .hero {
-    padding: 3rem;
+    padding: 10rem 3rem 3rem 3rem;
 }
 
 .hero .hero-img {
@@ -138,13 +150,13 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     max-width: 500px;
     display:block;
     margin: auto;
+    
 }
 
 .hero .hero-heading {
     color: var(--dark-gray);
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
-
 }
 
 /* sections */
@@ -160,15 +172,33 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     background-color: var(--off-white);
 }
 
+.blog-list {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.blog-border {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+    border: 1px solid var(--primary-color);
+}
+
 /* footers */
 
 .footer {
+    position: sticky;
+    width: 100%;
+    left: 0;
+    bottom: 0;
     background-color: var(--primary-color);
-    padding: 3rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-
 }
 
 .footer .footer-header {
@@ -189,3 +219,12 @@ The top most style overrides the same style applied below it within an (div) ele
     padding-inline-start: 0px;
 }
 
+/* blog-posts */
+
+.hero .blog-padding {
+    padding: 3rem;
+}
+
+.content {
+    height: 800px;
+  }

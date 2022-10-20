@@ -102,7 +102,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 /* navigation */
 
 .navigation {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -148,7 +148,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 
 .hero .projects-img {
     max-width: 500px;
-    display:block;
+    display: block;
     margin: auto;
     
 }
@@ -196,7 +196,7 @@ ul {
 /* footers */
 
 .footer {
-    position: sticky;
+    position: relative;
     width: 100%;
     left: 0;
     bottom: 0;

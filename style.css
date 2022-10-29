@@ -50,7 +50,8 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 /* spaces */
 
 .padding-md {
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    
 }
 
 .padding-small {
@@ -232,5 +233,6 @@ The top most style overrides the same style applied below it within an (div) ele
 }
 
 .content {
-    height: 800px;
+    height: 1800px;
+    
   }

@@ -240,3 +240,20 @@ The top most style overrides the same style applied below it within an (div) ele
     height: 1800px;
     
   }
+
+
+
+#blog-post {
+    margin:  auto;
+    text-align: justify;
+    max-width: 60%;
+    font-size: 22px;
+    line-height: 38px;
+    display: block;
+    padding-bottom: 20rem;
+}
+
+.para {
+    margin-top: 3rem;
+}
+

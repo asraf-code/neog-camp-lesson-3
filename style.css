@@ -47,6 +47,10 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     margin: auto;
 }
 
+.ctn-text{
+    text-align: center;
+}
+
 /* spaces */
 
 .padding-md {

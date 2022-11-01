@@ -238,6 +238,7 @@ The top most style overrides the same style applied below it within an (div) ele
 
 .content {
     height: 1800px;
+    padding-bottom: 50rem;
     
   }
 

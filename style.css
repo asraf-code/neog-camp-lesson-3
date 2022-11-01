@@ -129,7 +129,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 35px;
 }
 
 /* Active class: in navigation the link while be highllighted if on that page */
@@ -237,12 +237,14 @@ The top most style overrides the same style applied below it within an (div) ele
 }
 
 .content {
-    height: 1800px;
-    padding-bottom: 50rem;
+    height: 800px;
     
   }
 
-
+.project-content {
+    height: 1800px;
+    padding-bottom: 50rem;
+}
 
 #blog-post {
     margin:  auto;

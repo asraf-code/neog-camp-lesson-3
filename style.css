@@ -117,7 +117,7 @@ rem: It is a relative length unit. REM is relative to the font size of the root 
     border-bottom-left-radius: 1rem;
 }
 
-/* overitiing thorugh inhertiance. here only the link class inside navigation class is being overwritten from the above link  */
+/* overwritiing thorugh inhertiance. here only the link class inside navigation class is being overwritten from the above link  */
 
 .navigation .link {
     color: white;
